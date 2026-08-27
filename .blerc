@@ -1,0 +1,45 @@
+#! /usr/bin/bash
+
+## Specify the delay of auto-complete in millisecond
+bleopt complete_auto_delay=300
+# Disable auto-complete based on the command history
+bleopt complete_auto_history=
+# Set tab size(default `tput it`)
+bleopt tab_width=4
+
+## 提示相关
+# Disable EOF marker like "[ble: EOF]"
+bleopt prompt_eol_mark=
+# Disable error exit marker like "[ble: exit %d]"
+bleopt exec_errexit_mark=
+# Disable exit marker like "[ble: exit]"
+bleopt exec_exit_mark=
+# Disable elapsed-time marker like "[ble: elapsed 1.203s (CPU 0.4%)]"
+bleopt exec_elapsed_mark=
+# Disable some other markers like "[ble: ...]"
+bleopt edit_marker=
+bleopt edit_marker_error=
+
+## 行高亮
+#ble-face command_builtin='fg=yellow,bold' # bash 内建命令
+#ble-face command_file='fg=lime,bold' # 作为文件的命令
+#ble-face command_function='fg=99,bold'
+ble-face auto_complete='fg=240,bg=transparent,italic'
+
+## 右侧 prompt
+# https://github.com/akinomyoga/ble.sh/wiki/Manual-%C2%A74-Editing#user-content-bleopt-prompt_rps1
+
+ble-import contrib/prompt-git
+
+START_TIME_FILE="/tmp/bash_${BASHPID}_cmd_start_time.txt"
+date +%s.%N > $START_TIME_FILE # 先写进去
+__calc_time='BEGIN{if(stop-start>1){printf " \033[2;32m󱎫 %.2fs",stop-start}}'
+# 必须要用 ''，不然用 "" 只会在一开始执行一下，根本不管用。
+PS0='\[`date +%s.%N > $START_TIME_FILE`\]'$PS0 # 将命令开始的时间写入到文件里（`PS0` 是命令开始前显示的）
+
+case "$TERM" in
+    xterm-*|*-256color)
+        bleopt prompt_rps1='\q{contrib/git-branch}`local __status=$?; (( __status != 0 )) && echo -e " \033[91m ${__status}\033[0m"``awk -v start=$(cat $START_TIME_FILE) -v stop=$(date +%s.%N) "$__calc_time"`';;
+    *)
+        bleopt prompt_rps1='\q{contrib/git-branch}`local __status=$?; (( __status != 0 )) && echo -e "\033[91m${__status}\033[0m "`';;
+esac

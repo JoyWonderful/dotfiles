@@ -1,0 +1,96 @@
+## Core Packages
+
+### Core's Core?
+base
+linux # kernel
+#### Firmware
+#### https://wiki.archlinux.org/title/Linux_firmware
+#### https://wiki.archlinuxcn.org/wiki/Linux_%E5%9B%BA%E4%BB%B6
+linux-firmware
+intel-ucode # for intel cpu
+sof-firmware # for sounds
+
+### Boot
+grub
+efibootmgr
+plymouth
+
+### Network
+networkmanager
+
+### Documentaion
+man-db
+man-pages
+texinfo
+
+### Fonts
+adobe-source-han-sans-cn-fonts
+adobe-source-han-serif-cn-fonts
+
+### Others
+sudo
+pacman-contrib # Utils like pactree, paccache
+
+
+## Desktop Environment
+
+### Core
+gdm
+gnome-color-manager
+gnome-menus
+gnome-session
+gnome-settings-daemon
+gnome-shell
+gnome-user-share
+gst-plugin-pipewire # For screen recording. Be optionally depended by gnome-shell
+gst-thumbnailers
+power-profiles-daemon # 设置电源模式
+rygel
+xdg-desktop-portal-gnome
+xdg-user-dirs-gtk
+
+### Application
+baobab
+gnome-calculator
+gnome-characters
+gnome-console
+gnome-clocks
+gnome-control-center # Settings
+gnome-disk-utility
+gnome-logs
+gnome-text-editor
+loupe
+malcontent # Parent Control. I don't want this, but gnome-control-center needs it to display "Applications".
+nautilus
+papers
+yelp
+gnome-tweaks
+font-manager
+extension-manager
+
+
+### Others
+gnome-backgrounds
+gnome-user-docs
+gnome-keyring # For authenticator
+
+
+## My Packages
+base-devel # For AUR
+dmd # For AUR onedrive-abraunegg (make dependency)
+#ibus # Be depended by gnome-shell
+ibus-libpinyin
+exfat-utils # 方便 U 盘格式化一类的
+vim
+lynx
+git
+flatpak
+gcc
+gdb
+make
+nodejs
+npm
+
+
+# sed -e 's/#.*//' -e 's/[[:space:]]*$//' -e '/^[[:space:]]*$/d' pkglist.txt | sort > pkg-manual.txt
+# pacman -Qqen > pkg-pacman-manual.txt # q quiet; e selected for install; n native db (Not AUR)

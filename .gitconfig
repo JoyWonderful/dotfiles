@@ -1,0 +1,14 @@
+[user]
+	email = 99643089+JoyWonderful@users.noreply.github.com
+	name = JoyWonderful
+	signingkey = ~/.ssh/github.pub # ssh sign
+[core]
+	autocrlf = false
+	symlinks = true
+	editor = "code --wait"
+[gpg]
+	format = ssh # ssh sign
+[commit]
+	gpgsign = true # For automatic sign
+[init]
+	defaultBranch = main

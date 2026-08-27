@@ -1,0 +1,5 @@
+#! /usr/bin/bash
+# 删掉记录命令运行时间的文件。参见 ~/.blerc
+if [ -f $START_TIME_FILE ]; then
+    rm $START_TIME_FILE
+fi

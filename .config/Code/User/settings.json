@@ -1,0 +1,68 @@
+{
+    "workbench.colorTheme": "Dark+",
+    "workbench.experimental.modernUI": true,
+    "workbench.experimental.modernUIUppercaseViewHeaders": true,
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "vs-seti",
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.browser.showInTitleBar": true,
+    "workbench.browser.dataStorage": "ephemeral",
+    "workbench.localHistory.enabled": false,
+    "workbench.commandPalette.history": 5,
+
+    "editor.fontSize": 15,
+    "editor.fontFamily": "'Maple Mono NF CN', Consolas, 'Courier New', 'Adwaita Mono', 'Ubuntu Mono', monospace",
+    // "editor.fontLigatures": false, // 禁用连字
+    "editor.stickyScroll.enabled": false,
+    "editor.renderWhitespace": "all",
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    
+    "window.commandCenter": false,
+    
+    "terminal.integrated.fontFamily": "'Maple Mono NF CN', Consolas, 'Courier New', 'Adwaita Mono', 'Ubuntu Mono', monospace",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.enablePersistentSessions": false,
+    "terminal.integrated.stickyScroll.enabled": false, // it works strange, so i disabled it
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.profiles.windows": {
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ]
+        },
+        "JavaScript Debug Terminal": null,
+        "PowerShell": {
+            "path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+        }
+    },
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "/usr/bin/bash",
+        },
+        "JavaScript Debug Terminal": null
+    },
+
+    "telemetry.telemetryLevel": "off", // turn off the telemetry
+    "debug.console.fontFamily": "'Maple Mono NF CN', Consolas, 'Courier New', 'Adwaita Mono', 'Ubuntu Mono', monospace",
+
+    /// ext
+    "extensions.ignoreRecommendations": true,
+    "emmet.showExpandedAbbreviation": "never",
+    // git/diff
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "git.openRepositoryInParentFolders": "never",
+    "git.autofetch": true,
+    "git.suggestSmartCommit": false,
+    "scm.repositories.selectionMode": "single",
+    // chat disable!!!
+    "chat.disableAIFeatures": true,
+    "chat.agent.enabled": false,
+    "accessibility.verbosity.inlineChat": false,
+    "terminal.integrated.initialHint": false,
+    // share
+    //"liveshare.guestApprovalRequired": true,
+    //"liveshare.showInStatusBar": "whileCollaborating",
+}
