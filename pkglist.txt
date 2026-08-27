@@ -1,4 +1,4 @@
-## Core Packages
+## Core Packages - 删了系统会出毛病/不好用
 
 ### Core's Core?
 base
@@ -29,12 +29,11 @@ adobe-source-han-serif-cn-fonts
 
 ### Others
 sudo
-pacman-contrib # Utils like pactree, paccache
 
 
 ## Desktop Environment
 
-### Core
+### Core - 删了桌面环境会出毛病/不好用
 gdm
 gnome-color-manager
 gnome-menus
@@ -49,7 +48,7 @@ rygel
 xdg-desktop-portal-gnome
 xdg-user-dirs-gtk
 
-### Application
+### Application - GNOME/GTK 应用
 baobab
 gnome-calculator
 gnome-characters
@@ -81,6 +80,8 @@ dmd # For AUR onedrive-abraunegg (make dependency)
 #ibus # Be depended by gnome-shell
 ibus-libpinyin
 exfat-utils # 方便 U 盘格式化一类的
+pacman-contrib # Utils like pactree, paccache
+tree # Litsting files in tree
 vim
 lynx
 git
