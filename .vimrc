@@ -74,6 +74,8 @@ set autoread " 文件监视，若文件改变则提示
 set noerrorbells " 不发出声音
 set novisualbell
 
+set hlsearch " 高亮搜索项
+
 " 鼠标滚动只一行
 map <ScrollWheelUp> <C-Y>
 map <ScrollWheelDown> <C-E>
