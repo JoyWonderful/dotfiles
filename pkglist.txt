@@ -75,17 +75,26 @@ gnome-keyring # For authenticator
 
 
 ## My Packages
+### Utils 1 - More important
 base-devel # For AUR
 dmd # For AUR onedrive-abraunegg (make dependency)
 #ibus # Be depended by gnome-shell
 ibus-libpinyin
 exfat-utils # 方便 U 盘格式化一类的
 pacman-contrib # Utils like pactree, paccache
+### Utils 2 - Less important
 tree # Litsting files in tree
 vim
 lynx
 git
 flatpak
+### Virtual Box
+### https://wiki.archlinux.org/title/VirtualBox
+virtualbox # I think this can't be in "Desktop Environment"
+virtualbox-guest-iso # Like VMware Tools, for the guest
+#virtualbox-host-dkms # Be depended by virtualbox
+linux-header
+### Programming
 gcc
 gdb
 make
