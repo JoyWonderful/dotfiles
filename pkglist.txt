@@ -80,7 +80,7 @@ base-devel # For AUR
 dmd # For AUR onedrive-abraunegg (make dependency)
 #ibus # Be depended by gnome-shell
 ibus-libpinyin
-exfat-utils # 方便 U 盘格式化一类的
+exfat-utils # For format U-disks.
 pacman-contrib # Utils like pactree, paccache
 ### Utils 2 - Less important
 tree # Litsting files in tree
