@@ -3,7 +3,7 @@
     "workbench.experimental.modernUI": true,
     "workbench.experimental.modernUIUppercaseViewHeaders": true,
     "workbench.startupEditor": "none",
-    "workbench.iconTheme": "vs-seti",
+    "workbench.iconTheme": "vscode-icons",
     "workbench.editor.empty.hint": "hidden",
     "workbench.browser.showInTitleBar": true,
     "workbench.browser.dataStorage": "ephemeral",
