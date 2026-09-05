@@ -1,7 +1,10 @@
 {
     "workbench.colorTheme": "Dark+",
+    ///modernUI
     "workbench.experimental.modernUI": true,
     "workbench.experimental.modernUIUppercaseViewHeaders": true,
+    "window.density.layout": "compact",
+    ///end modernUI
     "workbench.startupEditor": "none",
     "workbench.iconTheme": "vscode-icons",
     "workbench.editor.empty.hint": "hidden",
