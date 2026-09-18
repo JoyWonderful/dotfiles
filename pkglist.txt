@@ -12,7 +12,7 @@ sof-firmware # for sounds
 #### https://wiki.archlinuxcn.org/wiki/Vulkan
 #vulkan-icd-loader # Be depended by gtk4 programs
 vulkan-intel
-mesa-utils # For glxgears & glxinfo
+vulkan-tools # Provides vkcube, vulkaninfo
 
 ### Boot
 grub
