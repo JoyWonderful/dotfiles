@@ -35,6 +35,10 @@ export XDG_CACHE_HOME=$HOME/.cache # like /var/cache/
 export XDG_DATA_HOME=$HOME/.local/share # like /usr/share/
 export XDG_STATE_HOME=$HOME/.local/state # like /var/lib/
 
+# https://wiki.archlinuxcn.org/wiki/%E5%AD%97%E4%BD%93#%E5%90%8E%E5%A4%87%E5%AD%97%E4%BD%93%E9%A1%BA%E5%BA%8F
+# 合理时使用选定的英文字体渲染
+export FC_LANG=en-US:zh-CN
+
 # 如果在纯 tty（无图形化界面时）：
 if [ $TERM = "linux" ]; then
     export LANG="en_US.UTF-8" # 使用英文，避免乱码
