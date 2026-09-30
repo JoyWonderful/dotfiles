@@ -85,6 +85,7 @@ base-devel # For AUR
 ibus-libpinyin
 exfat-utils # For format U-disks.
 pacman-contrib # Utils like pactree, paccache
+libnetfilter_queue # For steamcommunity302
 ### Utils 2 - Less important
 tree # Litsting files in tree
 vim
