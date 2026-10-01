@@ -156,7 +156,5 @@ if [ -f $BLESH_SRC ]; then
     source $BLESH_SRC
 fi
 
-export VIRTUAL_ENV_DISABLE_PROMPT=true # 禁用 venv 修改 prompt
-
 # 退出后（哪怕是非登录 shell）执行
 trap '. "$HOME/.bash_non-login_logout"' EXIT

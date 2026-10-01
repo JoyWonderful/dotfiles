@@ -39,6 +39,8 @@ export XDG_STATE_HOME=$HOME/.local/state # like /var/lib/
 # 合理时使用选定的英文字体渲染
 export FC_LANG=en-US:zh-CN
 
+export VIRTUAL_ENV_DISABLE_PROMPT=true # 禁用 venv 修改 prompt
+
 # 如果在纯 tty（无图形化界面时）：
 if [ $TERM = "linux" ]; then
     export LANG="en_US.UTF-8" # 使用英文，避免乱码
