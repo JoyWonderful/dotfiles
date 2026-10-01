@@ -83,7 +83,7 @@ gnome-keyring # For authenticator
 base-devel # For AUR
 #ibus # Be depended by gnome-shell
 ibus-libpinyin
-exfat-utils # For format U-disks.
+exfatprogs # For format U-disks.
 pacman-contrib # Utils like pactree, paccache
 libnetfilter_queue # For steamcommunity302
 ### Utils 2 - Less important
