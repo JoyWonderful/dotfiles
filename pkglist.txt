@@ -87,6 +87,7 @@ exfatprogs # For format U-disks.
 pacman-contrib # Utils like pactree, paccache
 libnetfilter_queue # For steamcommunity302
 ### Utils 2 - Less important
+gvfs-onedrive
 tree # Litsting files in tree
 vim
 lynx
