@@ -3,7 +3,7 @@
     ///modernUI
     "workbench.experimental.modernUI": true,
     "workbench.experimental.modernUIUppercaseViewHeaders": true,
-    "window.density.layout": "compact",
+    "workbench.experimental.modernUIEditorTabStyle": "pill",
     ///end modernUI
     "workbench.startupEditor": "none",
     "workbench.iconTheme": "vscode-icons",
@@ -65,6 +65,7 @@
     "chat.agent.enabled": false,
     "accessibility.verbosity.inlineChat": false,
     "terminal.integrated.initialHint": false,
+    "window.density.layout": "compact",
     // share
     //"liveshare.guestApprovalRequired": true,
     //"liveshare.showInStatusBar": "whileCollaborating",
