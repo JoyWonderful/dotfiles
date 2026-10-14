@@ -55,8 +55,10 @@ xdg-user-dirs-gtk
 ### Application - GNOME/GTK 应用
 baobab
 gnome-calculator
+gnome-calendar
 gnome-characters
 gnome-console
+gnome-contacts
 gnome-clocks
 gnome-control-center # Settings
 gnome-disk-utility
