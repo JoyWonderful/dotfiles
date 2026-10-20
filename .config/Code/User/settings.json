@@ -15,6 +15,9 @@
 
     "editor.fontSize": 15,
     "editor.fontFamily": "'Maple Mono NF CN', Consolas, 'Courier New', 'Adwaita Mono', 'Ubuntu Mono', monospace",
+    "[markdown]": {
+        "editor.fontFamily": "Consolas, 'Source Han Sans CN', 'Adwaita Mono', monospace"
+    },
     // "editor.fontLigatures": false, // 禁用连字
     "editor.stickyScroll.enabled": false,
     "editor.renderWhitespace": "all",
