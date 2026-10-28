@@ -57,21 +57,20 @@ baobab
 gnome-calculator
 gnome-calendar
 gnome-characters
-gnome-console
 gnome-contacts
 gnome-clocks
 gnome-control-center # Settings
 gnome-disk-utility
 gnome-logs
 gnome-text-editor
+gnome-tweaks
 loupe
 malcontent # Parent Control. I don't want this, but gnome-control-center needs it to display "Applications".
 nautilus
 papers
 yelp
-gnome-tweaks
+ptyxis
 font-manager
-extension-manager
 
 
 ### Others
