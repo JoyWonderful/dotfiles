@@ -30,6 +30,7 @@ texinfo
 ### Fonts
 adobe-source-han-sans-cn-fonts
 adobe-source-han-serif-cn-fonts
+noto-fonts-emoji
 
 ### Others
 sudo
@@ -54,11 +55,6 @@ xdg-user-dirs-gtk
 
 ### Application - GNOME/GTK 应用
 baobab
-gnome-calculator
-gnome-calendar
-gnome-characters
-gnome-contacts
-gnome-clocks
 gnome-control-center # Settings
 gnome-disk-utility
 gnome-logs
@@ -77,6 +73,7 @@ font-manager
 gnome-backgrounds
 gnome-user-docs
 gnome-keyring # For authenticator
+gvfs-onedrive
 adw-gtk-theme # Make gtk3 apps like adwaita&gtk4 apps
 
 
@@ -89,7 +86,6 @@ exfatprogs # For format U-disks.
 pacman-contrib # Utils like pactree, paccache
 libnetfilter_queue # For steamcommunity302
 ### Utils 2 - Less important
-gvfs-onedrive
 tree # Litsting files in tree
 vim
 lynx
