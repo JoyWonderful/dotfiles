@@ -73,6 +73,7 @@ font-manager
 gnome-backgrounds
 gnome-user-docs
 gnome-keyring # For authenticator
+evolution-data-server # For Contacts & Calendar
 gvfs-onedrive
 adw-gtk-theme # Make gtk3 apps like adwaita&gtk4 apps
 
